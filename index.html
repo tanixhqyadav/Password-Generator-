@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <h1>Password Generator</h1>
+            <div id="len">
+                <h2 >Password Length</h2>
+                <input id="lengthpsd" type="text">
+            </div>
+            <div class="checkbox">
+                <h2>Uppercase</h2>
+                <input type="checkbox" name="" id="a1">
+            </div>
+            <div class="checkbox">
+                <h2>Lowercase</h2>
+                <input type="checkbox" name="" id="a2">
+            </div>
+            <div class="checkbox">
+                <h2>Numbers</h2>
+                <input type="checkbox" name="" id="a3">
+            </div>
+            <div class="checkbox">
+                <h2>Special Symbols</h2>
+                <input type="checkbox" name="" id="a4">
+            </div>
+            <button onclick="showpsd()">
+                Generate Password
+            </button>
+            <div id="answer" color="white ">
+                <h1></h1>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
